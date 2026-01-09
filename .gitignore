@@ -1,0 +1,47 @@
+## Игнорировать результаты сборки C#/ .NET
+[Bb]in/
+[Oo]bj/
+
+## Исключения (не игнорировать внутри папок Bin и Obj):
+!*/[Bb]in/*.exe.config
+!*/[Bb]in/*.dll.config
+!*/[Bb]in/*.xml
+!*/[Bb]in/*.pdb
+
+## Файлы пользовательских настроек
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Файлы сборки Visual Studio
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+[Xx]64/
+[Xx]86/
+[Bb]uild/
+bld/
+
+## Файлы кэша и временные файлы
+.cache/
+*.cache
+*.tmp
+*.temp
+
+## Файлы операционных систем
+.DS_Store
+Thumbs.db
+
+## Файлы журналов и дампов
+*.log
+*.dmp
+
+## Файлы резервных копий
+*.bak
+*.backup
+
+## Файлы пакетов NuGet (можно раскомментировать при необходимости)
+# packages/
+# *.nupkg
